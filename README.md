@@ -1,3 +1,7 @@
+
+# mi-sell
+仿照移动端小米商城webApp
+
 ### `npm start`
 
 启动项目
@@ -56,3 +60,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======

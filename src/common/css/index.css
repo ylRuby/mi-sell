@@ -1,0 +1,39 @@
+html{
+    font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+    -webkit-font-smoothing: antialiased;  /*chrome、safari  抗锯齿渲染可以使字体看起来会更清晰舒服*/
+    -moz-osx-font-smoothing: grayscale;/*firefox*/
+    -webkit-text-size-adjust: 100%; /* 解决默认会放大文字的问题 */
+    text-size-adjust: none;
+    color: #333;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 13.3333vw;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+a{
+    display:block;
+    text-decoration: none;
+}
+img{
+    vertical-align: top;
+}
+li{
+    list-style:none;
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearFix::after{
+    content:'';
+    display: block;
+    clear:both;
+}
